@@ -242,18 +242,18 @@ ul.thin li {
     color: rgba(24, 32, 41, 0.6);
 }
 #logo {
-    width: 900px;
-    height: 58px;
+    width: auto;
+    height: 80px;
     z-index: 2;
     margin-top: 15px;
     margin-bottom: 30px
 }
 #logo a {
     border: none;
-    width: 235px;
-    height: 58px;
-    background: url('./images/dark-on-light/logo.png') no-repeat top left;
-    background-size: auto 58px;
+    width: auto;
+    height: 80px;
+    background: url('./images/light-on-dark/logo.png') no-repeat top left;
+    background-size: auto 80px;
     display: block;
     margin-left: 0;
 }
