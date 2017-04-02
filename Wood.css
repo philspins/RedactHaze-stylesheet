@@ -252,7 +252,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 80px;
-    background: url('./images/light-on-dark/logo.png') no-repeat top left;
+    background: url('./images/dark-on-light/logo.png') no-repeat top left;
     background-size: auto 80px;
     display: block;
     margin-left: 0;
