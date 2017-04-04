@@ -28,7 +28,7 @@ body {
     background-color: #212121;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
 }
 .forum_post pre {
@@ -40,7 +40,7 @@ table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
     color: #fff;
 }
 h1, h2, h3, h4 {
-    font-weight: 300;
+    font-weight: 400;
 }
 h2 {
     font-size: 18px !important;
@@ -457,7 +457,7 @@ ul.thin li {
 }
 #extra2 {
 	position: fixed;
-	background-color: #373838;
+	background-color: rgba(53, 54, 54, 0.97);
 	width: 984px;
   	top:0px; bottom:0; left:0; right:0;
 	margin:0px auto;
@@ -716,7 +716,7 @@ ul.thin li {
 }
 .autocomplete-suggestions {
     font-size: 12px;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     width: initial !important;
     max-width: 300px !important;
     max-height: 720px !important;
@@ -735,11 +735,11 @@ ul.thin li {
     background: #fff;
 }
 .autocomplete-selected strong {
-    font-weight: 300;
+    font-weight: 400;
     color: rgba(59, 59, 59, 0.9) !important;
 }
 .autocomplete-suggestions strong {
-    font-weight: 300;
+    font-weight: 400;
     color: #01afd8;
 }
 #alerts {
