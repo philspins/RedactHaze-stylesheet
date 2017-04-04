@@ -17,12 +17,12 @@ High-DPI images: Phlo
     margin: 0;
 }
 html {
-    width: 100%
+    width: 100%;
 }
 body {
-	background-image: url('./images/backgrounds/vinyl.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
+    background-image: url('./images/backgrounds/vinyl.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -576,7 +576,7 @@ ul.thin li {
     display: none;
 }
 #userinfo_minor:before {
-	content: '';
+    content: '';
     border: solid rgba(0, 0, 0, 0.08);
     border-width: 0 1px 0 0;
 }
@@ -959,7 +959,6 @@ td, th {
 }
 #inbox input[value='Editor']
 {
-
     margin-right: 3px;
 }
 #content>div>form.manage_form>div>table>tbody>tr {
@@ -995,10 +994,8 @@ td, th {
 td.colhead, .colhead td, td.colhead_dark, .colhead_dark td, .colhead th {
     padding: 12px 5px;
 }
-#forums tr.colhead td[style='width: 7%;
-    ']
+#forums tr.colhead td[style='width: 7%;']
 {
-
     text-align: right;
 }
 .colhead .sign, .colhead_dark .sign {
@@ -1157,7 +1154,6 @@ tr.group_torrent td, tr.group td, tr.torrent td {
 }
 .add_form[name='artists']
 {
-
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1288,7 +1284,6 @@ tr.unreadpm {
 }
 #inbox .send_form#messageform #quickpost input[name='subject']
 {
-
     width: 100%;
     margin: 2px 0 0 0;
 }
@@ -1298,13 +1293,11 @@ tr.unreadpm {
 }
 #inbox .search_form#searchbox input[name='search']
 {
-
     margin: 10px 0 0 0;
     width: 100% !important;
 }
 #inbox #messageform input[type='submit']
 {
-
     margin-top: 10px;
 }
 #inbox .message_table.checkboxes {
@@ -1312,12 +1305,10 @@ tr.unreadpm {
 }
 #inbox .message_table.checkboxes td[width='10']
 {
-
     padding: 12px 7px;
 }
 #friends input[type='submit']
 {
-
     margin-bottom: 4px;
 }
 #friends .left {
@@ -1387,11 +1378,8 @@ ul.collage_images li:nth-child(5n) img {
     clear: both;
     text-align: right;
 }
-#upload #content>div.box.pad[style='margin: 0px auto;
-     width:  700px;
-    ']
+#upload #content>div.box.pad[style='margin: 0px auto; width: 700px;']
 {
-
     width: 876px !important;
     margin-bottom: 12px !important;
 }
@@ -1506,7 +1494,8 @@ button:active {
     border-width: 0 0 1px 0;
     outline: none;
 }
-input[type=button], input[type=submit] {
+input[type=button], input[type=submit]
+{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1538,7 +1527,6 @@ input[type=button]:active, input[type=submit]:active {
 }
 input[type=text], input[type='password'], input[type='search'], input[type='email']
 {
-
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1554,12 +1542,10 @@ input[type=text], input[type='password'], input[type='search'], input[type='emai
     outline: none;
 }
 @-moz-document url-prefix() {
-    input[type=text], input[type='password'], input[type='search'], input[type='email']
-{
-
-    height: initial;
+input[type=text], input[type='password'], input[type='search'], input[type='email']
+{height: initial;}
 }
-}input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, input[type='search']:focus, input[type='password']:hover, input[type='password']:focus, input[type='email']:hover, input[type='email']:focus {
+input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, input[type='search']:focus, input[type='password']:hover, input[type='password']:focus, input[type='email']:hover, input[type='email']:focus {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     outline: none;
@@ -1784,10 +1770,8 @@ strong.important_text_alt {
     color: #82ff6e !important;
     text-shadow: 0 0 2px rgba(130, 255, 110, 0.8);
 }
-span[style='color: red;
-    ']
+span[style='color: red;']
 {
-
     color: #fff !important;
     font-weight: 600 !important;
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
@@ -1806,7 +1790,6 @@ div.sidebar #event_div {
 }
 #covers img[height='220']
 {
-
     height: initial !important;
 }
 #covers .pad {
@@ -1823,11 +1806,8 @@ div.sidebar #event_div {
 #artist .sidebar .box_image img {
     width: 240px;
 }
-#artist .sidebar .box_image div[style='text-align: center;
-     padding:  10px 0px;
-    ']
+#artist .sidebar .box_image div[style='text-align: center; padding: 10px 0px;']
 {
-
     padding: 0 !important;
 }
 #merchbox img, #merchbox+.box img {
@@ -1852,7 +1832,6 @@ div.sidebar #event_div {
 }
 input[type='search']
 {
-
     font-size: 12px;
     font-weight: 400 !important;
 }
@@ -1995,11 +1974,9 @@ img[src='static/common/symbols/donor_6.png']
 }
 #log span[style='color: blue;']
 {
-
     color: #a5e9ff !important;
 }
 #log span[style='color: green;']
 {
-
     color: #66b366 !important;
 }
