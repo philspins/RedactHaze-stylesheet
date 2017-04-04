@@ -1296,7 +1296,7 @@ blockquote, code {
     margin: 10px;
     padding: 10px;
     border: 1px solid #d9d9d9;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.06);
 }
 code {
     font-family: 'DejaVu Sans Mono', monospace;

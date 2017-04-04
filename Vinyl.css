@@ -440,20 +440,20 @@ ul.thin li {
     font-weight: 700;
     text-align: left;
     text-indent: -70px;
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0px 0px;
     background-size: 50px auto !important;
     overflow: hidden;
 }
 #userinfo_major #nav_invite a:hover {
     color: #fff;
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
     color: #fff;
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
 }
@@ -1291,7 +1291,7 @@ blockquote, code {
     margin: 10px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    background: rgba(0,0,0,0.15);
+    background: rgba(255, 255, 255, 0.08);
 }
 code {
     font-family: 'DejaVu Sans Mono', monospace;
