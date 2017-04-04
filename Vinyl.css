@@ -553,7 +553,6 @@ ul.thin li {
 #userinfo_username li:first-child {
     display: block;
     width: 128px !important;
-    background: #fff !important;
     color: #000 !important;
 }
 #userinfo_username li:first-child a:hover {
