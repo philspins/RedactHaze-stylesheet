@@ -74,7 +74,7 @@ a[onclick]:focus {
 a[onclick]:active {
     outline: 0;
 }
-a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
+a[onclick^='AddArtistField']:focus, a[onclick^='AddArtistField']:active {
     outline: 0;
     background: transparent !important;
     padding: 0 !important;
@@ -892,7 +892,9 @@ p.min_padding {
 .main_column .box .body {
     font-size: 13px;
 }
-.main_column #recommended .head a[href="#"] {
+.main_column #recommended .head a[href='#']
+{
+
     float: right;
 }
 .tags {
@@ -952,7 +954,9 @@ td, th {
     width: 868px;
     margin-bottom: 10px;
 }
-#inbox input[value="Editor"] {
+#inbox input[value='Editor']
+{
+
     margin-right: 3px;
 }
 #content>div>form.manage_form>div>table>tbody>tr {
@@ -988,8 +992,10 @@ td, th {
 td.colhead, .colhead td, td.colhead_dark, .colhead_dark td, .colhead th {
     padding: 12px 5px;
 }
-#forums tr.colhead td[style="width: 7%;
-    "] {
+#forums tr.colhead td[style='width: 7%;
+    ']
+{
+
     text-align: right;
 }
 .colhead .sign, .colhead_dark .sign {
@@ -1146,13 +1152,15 @@ tr.group_torrent td, tr.group td, tr.torrent td {
 .nobr {
     white-space: nowrap;
 }
-.add_form[name="artists"] {
+.add_form[name='artists']
+{
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 232px;
 }
-.add_form[name="artists"] input, .add_form[name="artists"] select {
+.add_form[name='artists'] input, .add_form[name='artists'] select {
     width: 93%;
     margin: 2px 0 !important;
 }
@@ -1162,7 +1170,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
 #requests .thin>.box, #inbox #messageform, #user #userform, #user .thin>.box, #artist .thin>.box, #artist .thin>table, #forums .forum_list, #forums .thin>.box, #wiki .thin>table, #wiki .thin>form, #collage .thin .search_form, #collage .thin>table, #collage .thin .edit_form {
     clear: both;
 }
-#wiki input[maxlength="100"], #wiki textarea[rows="22"], .forum_post form textarea {
+#wiki input[maxlength='100'], #wiki textarea[rows='22'], .forum_post form textarea {
     width: 100%}
 #forums .linkbox .center {
     text-align: right;
@@ -1186,7 +1194,9 @@ tr.group_torrent td, tr.group td, tr.torrent td {
 .forum_post>tbody>tr+tr {
     border: none;
 }
-.forum_post>tbody>tr:first-child>td>div+div input[type="button"] {
+.forum_post>tbody>tr:first-child>td>div+div input[type='button']
+{
+
     margin-left: 2px;
 }
 .unread_locked_sticky {
@@ -1273,7 +1283,9 @@ tr.unreadpm {
 #inbox .head {
     text-transform: none;
 }
-#inbox .send_form#messageform #quickpost input[name="subject"] {
+#inbox .send_form#messageform #quickpost input[name='subject']
+{
+
     width: 100%;
     margin: 2px 0 0 0;
 }
@@ -1281,20 +1293,28 @@ tr.unreadpm {
     width: 860px;
     margin: 2px 0 0 0;
 }
-#inbox .search_form#searchbox input[name="search"] {
+#inbox .search_form#searchbox input[name='search']
+{
+
     margin: 10px 0 0 0;
     width: 100% !important;
 }
-#inbox #messageform input[type="submit"] {
+#inbox #messageform input[type='submit']
+{
+
     margin-top: 10px;
 }
 #inbox .message_table.checkboxes {
     margin-top: 10px;
 }
-#inbox .message_table.checkboxes td[width="10"] {
+#inbox .message_table.checkboxes td[width='10']
+{
+
     padding: 12px 7px;
 }
-#friends input[type="submit"] {
+#friends input[type='submit']
+{
+
     margin-bottom: 4px;
 }
 #friends .left {
@@ -1364,9 +1384,11 @@ ul.collage_images li:nth-child(5n) img {
     clear: both;
     text-align: right;
 }
-#upload #content>div.box.pad[style="margin: 0px auto;
+#upload #content>div.box.pad[style='margin: 0px auto;
      width:  700px;
-    "] {
+    ']
+{
+
     width: 876px !important;
     margin-bottom: 12px !important;
 }
@@ -1511,7 +1533,9 @@ input[type=button]:active, input[type=submit]:active {
     border-width: 0 0 1px 0;
     outline: none;
 }
-input[type=text], input[type="password"], input[type="search"], input[type="email"] {
+input[type=text], input[type='password'], input[type='search'], input[type='email']
+{
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1527,10 +1551,12 @@ input[type=text], input[type="password"], input[type="search"], input[type="emai
     outline: none;
 }
 @-moz-document url-prefix() {
-    input[type=text], input[type="password"], input[type="search"], input[type="email"] {
+    input[type=text], input[type='password'], input[type='search'], input[type='email']
+{
+
     height: initial;
 }
-}input[type=text]:hover, input[type=text]:focus, input[type="search"]:hover, input[type="search"]:focus, input[type="password"]:hover, input[type="password"]:focus, input[type="email"]:hover, input[type="email"]:focus {
+}input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, input[type='search']:focus, input[type='password']:hover, input[type='password']:focus, input[type='email']:hover, input[type='email']:focus {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     outline: none;
@@ -1582,7 +1608,7 @@ select {
     padding: 5px 41px 5px 5px;
     -moz-appearance: none;
     text-indent: .01px;
-    text-overflow: "";
+    text-overflow: '';
     background-position: 2px right center;
 }
 }@-moz-document url-prefix() {
@@ -1733,7 +1759,7 @@ a[onclick^='remove_selection'], .remove.remove_artist a {
     background-repeat: no-repeat;
     background-position: 0 6px;
 }
-a[onclick^="remove_selection"] .brackets:before, a[onclick^="remove_selection"] .brackets:after, .edit_tags_votes .brackets:after, .edit_tags_votes .brackets:before {
+a[onclick^='remove_selection'] .brackets:before, a[onclick^='remove_selection'] .brackets:after, .edit_tags_votes .brackets:after, .edit_tags_votes .brackets:before {
     content: none !important;
 }
 #better .thin.box.pad .torrent_table {
@@ -1755,8 +1781,10 @@ strong.important_text_alt {
     color: #82ff6e !important;
     text-shadow: 0 0 2px rgba(130, 255, 110, 0.8);
 }
-span[style="color: red;
-    "] {
+span[style='color: red;
+    ']
+{
+
     color: #fff !important;
     font-weight: 600 !important;
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
@@ -1773,7 +1801,9 @@ div.sidebar #event_div {
 #covers img {
     width: 240px;
 }
-#covers img[height="220"] {
+#covers img[height='220']
+{
+
     height: initial !important;
 }
 #covers .pad {
@@ -1790,9 +1820,11 @@ div.sidebar #event_div {
 #artist .sidebar .box_image img {
     width: 240px;
 }
-#artist .sidebar .box_image div[style="text-align: center;
+#artist .sidebar .box_image div[style='text-align: center;
      padding:  10px 0px;
-    "] {
+    ']
+{
+
     padding: 0 !important;
 }
 #merchbox img, #merchbox+.box img {
@@ -1815,7 +1847,9 @@ div.sidebar #event_div {
 #reportsv2 .manage_form img {
     max-width: 622px;
 }
-input[type="search"] {
+input[type='search']
+{
+
     font-size: 12px;
     font-weight: 400 !important;
 }
@@ -1860,13 +1894,13 @@ input[type="search"] {
     right: 10px;
 }
 span.rbt {
-    background: url("images/rippy/rippy_top.png") no-repeat top;
+    background: url('images/rippy/rippy_top.png') no-repeat top;
 }
 span.rbm {
-    background: url("images/rippy/rippy_middle.png") repeat bottom;
+    background: url('images/rippy/rippy_middle.png') repeat bottom;
 }
 span.rbb {
-    background: url("images/rippy/rippy_bottom.png") no-repeat bottom;
+    background: url('images/rippy/rippy_bottom.png') no-repeat bottom;
 }
 #musicbrainz_popup {
     background: rgba(44, 44, 44, 0.9) !important;
@@ -1880,7 +1914,7 @@ span.rbb {
     color: #fff !important;
     font-weight: initial !important;
 }
-img[alt='Snatches']
+img[src='static/styles/postmod/images/snatched.png']
 {
 	background: url('./images/light-on-dark/snatched.png') no-repeat scroll 0 0 transparent !important;
 	width: 15px;
@@ -1902,7 +1936,8 @@ img[alt='Leechers']
     padding-right: 11px;
     width: 0;
 }
-img[src='static/common/avatars/default.png']{
+img[src='static/common/avatars/default.png']
+{
     content: url('./images/dark-on-light/default-avatar.png')
 }
 img[src='static/common/symbols/donor.png']
@@ -1953,9 +1988,13 @@ img[src='static/common/symbols/donor_6.png']
     padding-right: 15px !important;
     width: 0 !important;
 }
-#log span[style="color: blue;"] {
+#log span[style='color: blue;']
+{
+
     color: #a5e9ff !important;
 }
-#log span[style="color: green;"] {
+#log span[style='color: green;']
+{
+
     color: #66b366 !important;
 }
