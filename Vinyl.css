@@ -1914,11 +1914,13 @@ span.rbb {
     color: #fff !important;
     font-weight: initial !important;
 }
-img[src='static/styles/postmod/images/snatched.png']
+img[alt='Snatches']
 {
-	background: url('./images/light-on-dark/snatched.png') no-repeat scroll 0 0 transparent !important;
-	width: 15px;
-	height: 15px;
+	background: url('./images/light-on-dark/snatched.png') no-repeat scroll 0 0 transparent;
+    background-size:15px;
+    height: 15px;
+    width: 0;
+    padding-right: 15px;
 }
 img[alt='Seeders']
 {
