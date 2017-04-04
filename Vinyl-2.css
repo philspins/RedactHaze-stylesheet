@@ -1969,6 +1969,16 @@ img[alt='Leechers']
     padding-right: 11px;
     width: 0;
 }
+img[src='static/common/smileys/smile.gif'] {
+    content: url('./images/smileys/smile.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/wink.gif'] {
+    content: url('./images/smileys/wink.png');
+    height: 20px;
+    width: 20px;
+}
 img[src='static/common/smileys/wtf.gif'] {
     content: url('./images/smileys/wtf.png');
     height: 20px;
