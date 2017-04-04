@@ -599,8 +599,8 @@ ul.thin li {
     text-decoration: none;
     visibility: visible;
     height: 36px;
-    transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
-    -webkit-transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
+    transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
+    -webkit-transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
 }
 #userinfo_username li {
     display: block !important;
@@ -654,8 +654,8 @@ ul.thin li {
 #userinfo_minor:hover > li {
     visibility: visible;
     height: 36px;
-    transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s;
-    -webkit-transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s;
+    transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s;
+    -webkit-transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s;
 }
 #userinfo_minor li a {
     display: block;

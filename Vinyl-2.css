@@ -273,6 +273,7 @@ ul.thin li {
     border: solid rgba(0, 0, 0, 0) !important;
     border-width: 1px 0 !important;
     font-weight: 400;
+    transition: all 0.4s;
 }
 #menu a:active {
     background: #f3f3f3 !important;
@@ -525,8 +526,8 @@ ul.thin li {
 #userinfo_username {
     position: absolute;
     list-style: none;
-    margin: 4px 0 0 874px;
-    left: -9999px;
+    margin: 4px 0 0 0;
+    right: 0;
     z-index: 999;
 }
 #userinfo_username li:first-child a {
@@ -545,15 +546,14 @@ ul.thin li {
     padding: 0 !important;
     display: block;
     position: relative;
-    right: -10157px;
-    margin: -4px 0 0 -158px !important;
+    margin: -4px 0 0 0 !important;
+    visibility: visible;
 }
 #userinfo_username li:first-child {
     display: block;
     width: 128px !important;
     background: #fff !important;
     color: #000 !important;
-    margin: 0 0 0 -152px !important;
 }
 #userinfo_username li:first-child a:hover {
     background: #fff;
@@ -567,11 +567,9 @@ ul.thin li {
     background: #f3f3f3;
 }
 #userinfo_username:hover li:first-child a {
-    left: 158px;
     border: none;
 }
 #userinfo_username:hover {
-    left: 0;
     font-weight: 400;
 }
 #userinfo_username li a {
@@ -579,25 +577,30 @@ ul.thin li {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 178px;
-    height: 36px;
+    height: 0px;
     line-height: 36px;
     vertical-align: middle;
     display: block;
     padding: 0 12px;
     background: #fff;
     color: #000;
-    margin: -4px 0 0 -158px !important;
-}
-#userinfo_username li {
-    display: block !important;
+    margin: -4px 0 0 0 !important;
+    visibility: hidden;
 }
 #userinfo_username li:nth-child(3) a {
     margin-top: 0 !important;
 }
-#userinfo_username:hover li a {
+#userinfo_username:hover li a, #userinfo_username:active li a {
     background: #fff;
     color: #000;
     text-decoration: none;
+    visibility: visible;
+    height: 36px;
+    transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
+    -webkit-transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s, color 0.4s;
+}
+#userinfo_username li {
+    display: block !important;
 }
 #userinfo_username li a:hover {
     background: #e5e5e5;
@@ -648,8 +651,8 @@ ul.thin li {
 #userinfo_minor:hover > li {
     visibility: visible;
     height: 36px;
-    transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s;
-    -webkit-transition: height 0.15s ease-out 0.15s, visibility 0 ease-out 0.17s;
+    transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s;
+    -webkit-transition: height 0.1s ease-out 0.15s, visibility 0 ease-out 0.17s;
 }
 #userinfo_minor li a {
     display: block;
@@ -734,6 +737,7 @@ ul.thin li {
     background: rgba(0, 0, 0, 0.35);
     border: 1px solid rgba(0, 0, 0, 0.5);
     outline: none;
+    transition: all 0.4s;
 }
 #searchbars ul {
     margin: 0;
@@ -1556,12 +1560,14 @@ input[type=button]:hover, input[type=submit]:hover {
     border-width: 0 0 1px 0;
     background: linear-gradient(rgba(255, 255, 255, 0.83),  rgba(255, 255, 255, 0.68));
     outline: none;
+    transition: all 0.4s;
 }
 input[type=button]:active, input[type=submit]:active {
     background: linear-gradient(rgba(255, 255, 255, 0.69),  rgba(255, 255, 255, 0.79));
     border: solid rgba(255, 255, 255, 0.2);
     border-width: 0 0 1px 0;
     outline: none;
+    transition: all 0.4s;
 }
 input[type=text], input[type='password'], input[type='search'], input[type='email']
 {
@@ -1587,6 +1593,7 @@ input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, inpu
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     outline: none;
+    transition: all 0.4s;
 }
 ::-webkit-search-cancel-button {
     -webkit-appearance: none;
@@ -1658,6 +1665,7 @@ select:hover {
     background-size: 20px;
     background-position: right 2px top 2px, 0 0;
     border-radius: 1px;
+    transition: all 0.4s;
 }
 option:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1675,6 +1683,7 @@ select:active, select:focus {
     outline: none;
     color: #fff;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    transition: all 0.4s;
 }
 #logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
     color: #fff;
