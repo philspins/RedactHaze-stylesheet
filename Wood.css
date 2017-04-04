@@ -551,10 +551,6 @@ ul.thin li {
     position: relative;
     margin: -4px 0 0 0 !important;
     visibility: visible;
-    -o-box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 #userinfo_username li:first-child {
     display: block;
@@ -593,10 +589,6 @@ ul.thin li {
     color: #000;
     margin: -4px 0 0 0 !important;
     visibility: hidden;
-    -o-box-shadow: 5px 15px 15px -10px #888;
-    -moz-box-shadow: 5px 15px 15px -10px #888;
-    -webkit-box-shadow: 5px 15px 15px -10px #888;
-    box-shadow: 10px 15px 15px -15px #888;
 }
 #userinfo_username li:nth-child(3) a {
     margin-top: 0 !important;
@@ -677,10 +669,6 @@ ul.thin li {
     background: #fff;
     color: #000;
     margin: -4px 0 0 30px !important;
-    -o-box-shadow: 5px 15px 15px -10px #888;
-    -moz-box-shadow: 5px 15px 15px -10px #888;
-    -webkit-box-shadow: 5px 15px 15px -10px #888;
-    box-shadow: 10px 15px 15px -15px #888;
 }
 #userinfo_minor li:first-child a {
     margin-top: 0 !important;
