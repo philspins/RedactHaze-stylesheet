@@ -351,17 +351,17 @@ ul.thin li {
     color: transparent !important;
 }
 #nav_staff a {
-    background: url('./images/menu/staff-sprite.png') !important;
+    background: url('./images/menu/staff-sprite-dark.png') !important;
     background-position: 0 0 !important;
     background-size: 50px auto !important;
 }
 #nav_staff a:hover {
-    background: url('./images/menu/staff-sprite.png') !important;
+    background: url('./images/menu/staff-sprite-dark.png') !important;
     background-position: 0 83px !important;
     background-size: 50px auto !important;
 }
 #nav_staff a:active {
-    background: url('./images/menu/staff-sprite.png') !important;
+    background: url('./images/menu/staff-sprite-dark.png') !important;
     background-position: 0 41px !important;
     background-size: 50px auto !important;
 }
@@ -396,32 +396,32 @@ ul.thin li {
     margin: 0 0 0 -2px !important;
 }
 #userinfo_major #nav_upload a {
-    background: url('./images/menu/upload-sprite.png');
+    background: url('./images/menu/upload-sprite-dark.png');
     background-position: 0 0;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:hover {
-    background: url('./images/menu/upload-sprite.png');
+    background: url('./images/menu/upload-sprite-dark.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:active {
-    background: url('./images/menu/upload-sprite.png');
+    background: url('./images/menu/upload-sprite-dark.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a {
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0 0;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:hover {
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
-    background: url('./images/menu/invite-sprite.png');
+    background: url('./images/menu/invite-sprite-dark.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
 }
@@ -429,32 +429,32 @@ ul.thin li {
     margin-left: -100px;
 }
 #userinfo_major #nav_store a {
-    background: url('./images/menu/store-sprite.png');
+    background: url('./images/menu/store-sprite-dark.png');
     background-position: 0 0;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_store a:hover {
-    background: url('./images/menu/store-sprite.png');
+    background: url('./images/menu/store-sprite-dark.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_store a:active {
-    background: url('./images/menu/store-sprite.png');
+    background: url('./images/menu/store-sprite-dark.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a {
-    background: url('./images/menu/donate-sprite.png');
+    background: url('./images/menu/donate-sprite-dark.png');
     background-position: 0 0;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:hover {
-    background: url('./images/menu/donate-sprite.png');
+    background: url('./images/menu/donate-sprite-dark.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:active {
-    background: url('./images/menu/donate-sprite.png');
+    background: url('./images/menu/donate-sprite-dark.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
 }
