@@ -437,27 +437,34 @@ ul.thin li {
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a {
-    color:transparent;
-    padding-top: 26px;
-    padding-left: 33px;
+    color: #000;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-top: -8px;
+    overflow: hidden;
+    padding-top: 35px;
+    padding-left: 34px;
     font-weight: 700;
     text-align: left;
     text-indent: -70px;
+}
+#userinfo_major #nav_invite {
     background: url('./images/menu/invite-sprite.png');
     background-position: 0px 0px;
     background-size: 50px auto !important;
-    overflow: hidden;
 }
+
 #userinfo_major #nav_invite a:hover {
     color: #f7f7f7;
     background: url('./images/menu/invite-sprite.png');
-    background-position: 0 84px;
+    background-position: 0 92px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
     color: #f7f7f7;
     background: url('./images/menu/invite-sprite.png');
-    background-position: 0 42px;
+    background-position: 0 50px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_store a {
@@ -2062,4 +2069,51 @@ div[class~=tooltipster-content]>a:hover {
 span[style='color: red;']
 {
     color: #b22617 !important;
+}
+
+/****** Plugins ******/
+
+.gm_color_freeleech {
+	background:#3BA53B !important;
+	color:#fff !important
+}
+.gm_color_neutralleech {
+	background:#a8e687 !important;
+	color:#fff !important
+}
+.gm_color_reported {
+	background:#ee372a !important;
+	color:#fff !important
+}
+.gm_color_badtags {
+	background:#F4D524 !important;
+	color:#fff !important
+}
+.gm_color_badfolders {
+	background:#eee08e !important;
+	color:#fff !important
+}
+.gm_color_cassetteapproved {
+	background:#0992B5 !important;
+	color:#fff !important
+}
+.gm_color_lossymasterapproved {
+	background:#6B6FBF !important;
+	color:#fff !important
+}
+.gm_color_badfilenames {
+	background:#84795F !important;
+	color:#fff !important
+}
+.gm_color_personalfreeleech {
+	background:#ffbfcb !important;
+	color:#fff!important
+}
+.gm_color_trumpable {
+	background:#ffb729 !important;
+	color:#fff !important
+}
+.gm_color_snatched {
+	background:#01b0d8 !important;
+	color:#fff !important
 }
