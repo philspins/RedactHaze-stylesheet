@@ -273,7 +273,7 @@ ul.thin li {
     border: solid rgba(0, 0, 0, 0) !important;
     border-width: 1px 0 !important;
     font-weight: 400;
-    transition: all 0.4s;
+    transition: color 0.4s;
 }
 #menu a:active {
     background: #f3f3f3 !important;
@@ -344,7 +344,7 @@ ul.thin li {
     position: relative;
     top: -134px;
     right: 60px;
-    background: url('./images/menu/freeleech-sprite.png');
+    background: url('./images/menu/freeleech-sprite-dark.png');
     background-position: 0 8px !important;
     background-repeat: no-repeat;
     background-size: 50px auto !important;
