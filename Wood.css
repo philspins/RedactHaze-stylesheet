@@ -437,16 +437,25 @@ ul.thin li {
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a {
+    color:transparent;
+    padding-top: 26px;
+    padding-left: 33px;
+    font-weight: 700;
+    text-align: left;
+    text-indent: -70px;
     background: url('./images/menu/invite-sprite.png');
-    background-position: 0 0;
+    background-position: 0px 0px;
     background-size: 50px auto !important;
+    overflow: hidden;
 }
 #userinfo_major #nav_invite a:hover {
+    color: #f7f7f7;
     background: url('./images/menu/invite-sprite.png');
     background-position: 0 84px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
+    color: #f7f7f7;
     background: url('./images/menu/invite-sprite.png');
     background-position: 0 42px;
     background-size: 50px auto !important;
