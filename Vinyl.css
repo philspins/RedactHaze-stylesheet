@@ -434,7 +434,7 @@ ul.thin li {
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a {
-    color: #000;
+    color: #fff;
     display: block;
     height: 50px;
     width: 50px;
@@ -1223,7 +1223,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
 
 }
 .forum_unread {
-    border: 2px solid #fff;
+    border: 2px solid #ff8901;
     border-width: 0 0 0 2px;
 }
 .forum_post a {
