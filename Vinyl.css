@@ -338,6 +338,28 @@ ul.thin li {
 #nav_index {
     display: none !important;
 }
+#nav_Free {
+    text-indent: -50px;
+    overflow: hidden;
+    position: absolute;
+    top: -7px;
+    right: 460px;
+    background: url('./images/menu/freeleech-sprite-dark.png');
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    background-size: 50px auto !important;
+    padding: 0px 0px 0px 50px;
+}
+#nav_Free:hover {
+    background: url('./images/menu/freeleech-sprite-dark.png');
+    background-position: 0 92px;
+    padding: 0px 0px 0px 50px;
+}
+#nav_Free:active {
+    background: url('./images/menu/freeleech-sprite-dark.png');
+    background-position: 0 50px;
+    padding: 0px 0px 0px 50px;
+}
 #nav_staff {
     position: absolute;
     margin: -124px 0 0 713px !important;
