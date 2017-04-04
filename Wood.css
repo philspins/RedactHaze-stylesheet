@@ -111,6 +111,11 @@ textarea:hover, textarea:active, textarea:focus {
 img {
     border: none;
 }
+img[src='static/common/smileys/wtf.gif'] {
+    content: url('./images/smileys/wtf.png');
+    height: 20px;
+    width: 20px;
+}
 img[src='static/common/avatars/default.png']{
     content: url('./images/light-on-dark/default-avatar.png')
 }
