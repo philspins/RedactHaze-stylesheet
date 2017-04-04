@@ -341,10 +341,10 @@ ul.thin li {
 }
 #nav_Free a {
     overflow: hidden;
-    position: absolute;
-    top: -7px;
-    right: 460px;
-    background: url('./images/menu/freeleech-sprite-dark.png');
+    position: relative;
+    top: -134px;
+    right: 60px;
+    background: url('./images/menu/freeleech-sprite.png');
     background-position: 0 8px !important;
     background-repeat: no-repeat;
     background-size: 50px auto !important;
