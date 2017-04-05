@@ -441,12 +441,12 @@ ul.thin li {
     width: 50px;
     margin-top: -8px;
     overflow: hidden;
-    padding-top: 33px;
+    padding-top: 32px;
     padding-left: 40px;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 0.8vmax;
     text-align: left;
-    text-indent: -70px;
+    text-indent: -5.3vmax;
 }
 #userinfo_major #nav_invite {
     background: url('./images/menu/invite-sprite-dark.png');
