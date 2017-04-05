@@ -2140,92 +2140,92 @@ span[style='color: red;']
 
 /**** Smileys ****/
 
-img[src='static/common/smileys/angry.gif'] {
+img[src*='smileys/angry.gif'] {
     content: url('./images/smileys/angry.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/biggrin.gif'] {
+img[src*='smileys/biggrin.gif'] {
     content: url('./images/smileys/biggrin.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/blank.gif'] {
+img[src*='smileys/blank.gif'] {
     content: url('./images/smileys/blank.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/blush.gif'] {
+img[src*='smileys/blush.gif'] {
     content: url('./images/smileys/blush.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/cool.gif'] {
+img[src*='smileys/cool.gif'] {
     content: url('./images/smileys/cool.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/creepy.gif'] {
+img[src*='smileys/creepy.gif'] {
     content: url('./images/smileys/creepy.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/crying.gif'] {
+img[src*='smileys/crying.gif'] {
     content: url('./images/smileys/crying.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/eyesright.gif'] {
+img[src*='smileys/eyesright.gif'] {
     content: url('./images/smileys/eyesright.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/frown.gif'] {
+img[src*='smileys/frown.gif'] {
     content: url('./images/smileys/frown.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/heart.gif'] {
+img[src*='smileys/heart.gif'] {
     content: url('./images/smileys/heart.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/hmm.gif'] {
+img[src*='smileys/hmm.gif'] {
     content: url('./images/smileys/hmm.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/laughing.gif'] {
+img[src*='smileys/laughing.gif'] {
     content: url('./images/smileys/laughing.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/ninja.gif'] {
+img[src*='smileys/ninja.gif'] {
     content: url('./images/smileys/ninja.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/ohnoes.gif'] {
+img[src*='smileys/ohnoes.gif'] {
     content: url('./images/smileys/ohnoes.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/ohshit.gif'] {
+img[src*='smileys/ohshit.gif'] {
     content: url('./images/smileys/ohshit.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/smile.gif'] {
+img[src*='smileys/smile.gif'] {
     content: url('./images/smileys/smile.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/wink.gif'] {
+img[src*='smileys/wink.gif'] {
     content: url('./images/smileys/wink.png');
     height: 20px;
     width: 20px;
 }
-img[src='static/common/smileys/wtf.gif'] {
+img[src*='smileys/wtf.gif'] {
     content: url('./images/smileys/wtf.png');
     height: 20px;
     width: 20px;
