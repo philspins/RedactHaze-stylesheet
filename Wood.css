@@ -2258,6 +2258,12 @@ img[src*='smileys/wtf.gif'] {
     padding-left: 8px;
 }
 
+table.important_user_not_OP {
+    border: 2px solid #ff8901;
+    border-width: 0 2px 0 0;
+    box-shadow: none !important;
+}
+
 /**** Misc ****/
 
 img[alt='The Apple Way']
