@@ -1974,6 +1974,18 @@ img[alt='Leechers']
     padding-right: 11px;
     width: 0;
 }
+img[src='static/common/symbols/disabled.png'] {
+    content: url('./images/disabled.png');
+    height: 16px;
+    width: 16px;
+    margin-top: -2px;
+}
+img[src='static/common/symbols/warned.png'] {
+    content: url('./images/warned.png');
+    height: 16px;
+    width: 16px;
+    margin-top: -2px;
+}
 img[src='static/common/avatars/default.png']
 {
     content: url('./images/dark-on-light/default-avatar.png')
