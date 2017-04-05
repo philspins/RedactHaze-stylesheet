@@ -435,15 +435,16 @@ ul.thin li {
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a {
-    color: #fff;
+    color: transparent;
     display: block;
     height: 50px;
     width: 50px;
     margin-top: -8px;
     overflow: hidden;
-    padding-top: 35px;
-    padding-left: 34px;
+    padding-top: 33px;
+    padding-left: 40px;
     font-weight: 700;
+    font-size: 10px;
     text-align: left;
     text-indent: -70px;
 }
