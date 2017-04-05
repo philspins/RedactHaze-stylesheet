@@ -2152,7 +2152,7 @@ img[src*='smileys/wtf.gif'] {
     padding-left: 8px;
 }
 .linkbox a[href*='discogs'] img {
-    content: url('./images/plugins-support/discogs.png');
+    content: url('./images/plugins-support/discogs-white.png');
     width: 15px;
     height: 15px;
     padding-left: 8px;
