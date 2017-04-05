@@ -2231,6 +2231,33 @@ img[src*='smileys/wtf.gif'] {
     width: 20px;
 }
 
+/**** Plugin Support ****/
+
+.linkbox a[href*='last'] img {
+    content: url('./images/plugins-support/lastfm.png');
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+.linkbox a[href*='discogs'] img {
+    content: url('./images/plugins-support/discogs.png');
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+.linkbox a[href*='musicbrainz'] img {
+    content: url('./images/plugins-support/musicbrainz.png');
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+.linkbox a[href*='rateyourmusic'] img {
+    content: url('./images/plugins-support/rateyourmusic.png');
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+}
+
 /**** Misc ****/
 
 img[alt='The Apple Way']
