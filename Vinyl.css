@@ -1979,14 +1979,17 @@ img[src='static/common/symbols/disabled.png'] {
     height: 16px;
     width: 16px;
     margin-top: -2px;
+    margin-left: 2px;
+    margin-bottom: -2px;
 }
 img[src='static/common/symbols/warned.png'] {
     content: url('./images/warned.png');
     height: 16px;
     width: 16px;
     margin-top: -2px;
-}
-img[src='static/common/avatars/default.png']
+    margin-left: 2px;
+    margin-bottom: -2px;
+}img[src='static/common/avatars/default.png']
 {
     content: url('./images/dark-on-light/default-avatar.png')
 }
