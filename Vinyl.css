@@ -2127,3 +2127,14 @@ img[src='static/common/smileys/wtf.gif'] {
     height: 20px;
     width: 20px;
 }
+
+
+/**** Misc ****/
+
+img[alt='The Apple Way']
+{
+    content: url('./images/The-Apple-Way.png');
+    height: 16px;
+    width: 16px;
+    margin-top: -2px;
+}

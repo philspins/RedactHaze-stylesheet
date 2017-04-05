@@ -2219,8 +2219,8 @@ img[src='static/common/smileys/wtf.gif'] {
 
 img[alt='The Apple Way']
 {
-	background: url('./images/The-Apple-Way.png') no-repeat scroll 0 0 transparent;
-    background-size:16px;
+    content: url('./images/The-Apple-Way.png');
     height: 16px;
-    width: 0;
+    width: 16px;
+    margin-top: -2px;
 }
