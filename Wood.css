@@ -111,21 +111,6 @@ textarea:hover, textarea:active, textarea:focus {
 img {
     border: none;
 }
-img[src='static/common/smileys/smile.gif'] {
-    content: url('./images/smileys/smile.png');
-    height: 20px;
-    width: 20px;
-}
-img[src='static/common/smileys/wink.gif'] {
-    content: url('./images/smileys/wink.png');
-    height: 20px;
-    width: 20px;
-}
-img[src='static/common/smileys/wtf.gif'] {
-    content: url('./images/smileys/wtf.png');
-    height: 20px;
-    width: 20px;
-}
 img[src='static/common/avatars/default.png']{
     content: url('./images/light-on-dark/default-avatar.png')
 }
@@ -846,9 +831,10 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
 .last_read {
     width: 16px;
     height: 16px;
-    background: url('./images/dark-on-light/forum/go_last_read.png') no-repeat center center;
+    background: url('./images/dark-on-light/forum-dark-on-light/go_last_read.png') no-repeat center center;
     margin-left: 5px;
     background-size: 16px;
+    opacity: 0.35;
 }
 .last_read a {
     border: none;
@@ -856,11 +842,13 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
     height: 100%;
     display: block;
 }
-.last_read a:hover {
+.last_read:hover {
     border: none;
+    opacity: 1;
 }
 .last_read a:active, .last_read a:focus {
     outline: 0;
+    opacity: 1;
 }
 .hidden {
     position: absolute;
@@ -2131,4 +2119,57 @@ span[style='color: red;']
 .gm_color_snatched {
 	background:#01b0d8 !important;
 	color:#fff !important
+}
+
+/**** Smileys ****/
+
+img[src='static/common/smileys/angry.gif'] {
+    content: url('./images/smileys/angry.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/biggrin.gif'] {
+    content: url('./images/smileys/biggrin.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/blank.gif'] {
+    content: url('./images/smileys/blank.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/blush.gif'] {
+    content: url('./images/smileys/blush.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/cool.gif'] {
+    content: url('./images/smileys/cool.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/creepy.gif'] {
+    content: url('./images/smileys/creepy.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/eyesright.gif'] {
+    content: url('./images/smileys/eyesright.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/smile.gif'] {
+    content: url('./images/smileys/smile.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/wink.gif'] {
+    content: url('./images/smileys/wink.png');
+    height: 20px;
+    width: 20px;
+}
+img[src='static/common/smileys/wtf.gif'] {
+    content: url('./images/smileys/wtf.png');
+    height: 20px;
+    width: 20px;
 }
