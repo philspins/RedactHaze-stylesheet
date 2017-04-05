@@ -2172,6 +2172,7 @@ img[src*='smileys/wtf.gif'] {
 table.important_user_not_OP {
     border: 2px solid #ff8901;
     border-width: 2px 2px 2px 2px;
+    box-shadow: none !important;
 }
 
 /**** Misc ****/
