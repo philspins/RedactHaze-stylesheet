@@ -441,12 +441,12 @@ ul.thin li {
     width: 50px;
     margin-top: -8px;
     overflow: hidden;
-    padding-top: 32px;
+    padding-top: 33px;
     padding-left: 40px;
     font-weight: 700;
-    font-size: 0.8vmax;
+    font-size: 11px;
     text-align: left;
-    text-indent: -5.3vmax;
+    text-indent: -73px;
 }
 #userinfo_major #nav_invite {
     background: url('./images/menu/invite-sprite-dark.png');
@@ -1227,10 +1227,9 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background-size: 20px;
     padding-left: 25px;
     background-position: center left;
-
 }
 .forum_unread {
-    border: 2px solid #0bb9e6;
+    border: 2px solid #0bb9e6 !important;
     border-width: 0 0 0 2px;
 }
 .forum_post a {
@@ -2168,6 +2167,11 @@ img[src*='smileys/wtf.gif'] {
     width: 15px;
     height: 15px;
     padding-left: 8px;
+}
+
+table.important_user_not_OP {
+    border: 2px solid #ff8901;
+    border-width: 2px 2px 2px 2px;
 }
 
 /**** Misc ****/

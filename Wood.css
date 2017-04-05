@@ -459,12 +459,12 @@ ul.thin li {
     width: 50px;
     margin-top: -8px;
     overflow: hidden;
-    padding-top: 32px;
+    padding-top: 33px;
     padding-left: 40px;
     font-weight: 700;
-    font-size: 0.8vmax;
+    font-size: 11px;
     text-align: left;
-    text-indent: -5.3vmax;
+    text-indent: -73px;
 }
 #userinfo_major #nav_invite {
     background: url('./images/menu/invite-sprite.png');
