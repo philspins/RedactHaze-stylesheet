@@ -1344,6 +1344,9 @@ code {
 tr.unreadpm {
     background-color: #68b85c !important;
 }
+tr.unreadpm a:hover {
+    color: #90ff80 !important;
+}
 #inbox .head {
     text-transform: none;
 }
