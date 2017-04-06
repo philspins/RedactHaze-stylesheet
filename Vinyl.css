@@ -867,7 +867,8 @@ input.hidden {
     margin: 0 auto;
 }
 .thin h2 {
-    margin: 1.25vh 20px 0 20px;
+    font-weight: 600;
+    margin: 1.5vh 20px 2vh 0;
 }
 .linkbox {
     text-align: right;
@@ -1835,10 +1836,25 @@ a[onclick^='remove_selection'] .brackets:before, a[onclick^='remove_selection'] 
 #better .thin #lists+.box.pad {
     padding: 0 !important;
 }
-strong.important_text, .invalid, .warning, .error, .new {
+strong.important_text {
     color: #fff !important;
     font-weight: 600 !important;
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+}
+.invalid, .warning {
+    color: #ffa424 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 5px rgba(255, 164, 36, 0.4);
+}
+.new {
+    color: #03c2f2 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 5px rgba(3, 194, 242, 0.35);
+}
+.error {
+    color: #fc0528 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 5px rgba(252, 5, 40, 0.4);
 }
 strong.important_text_alt {
     color: #82ff6e !important;
@@ -2200,7 +2216,7 @@ table.important_user_not_OP {
 
 img[alt='The Apple Way']
 {
-    content: url('./images/The-Apple-Way.png');
+    content: url('./images/plugins-support/The-Apple-Way.png');
     height: 16px;
     width: 16px;
     margin-top: -2px;
