@@ -1840,6 +1840,10 @@ strong.important_text {
     background: #a16ac8 !important;
 	color:#fff !important;
 }
+strong.important_text_alt {
+    background: #3BA53B !important;
+    color:#fff !important;
+}
 .invalid, .warning {
     background:#ffb729 !important;
 	color:#fff !important
@@ -1848,11 +1852,11 @@ strong.important_text {
     background: #03c2f2 !important;
 	color:#fff !important;
 }
-.error {
-    background:#ee372a !important;
+.error, .torrent_table>tbody>tr>td>strong.important_text {
+    background: #ee372a !important;
 	color:#fff !important
 }
-strong.important_text, .invalid, .warning, .new, .error {
+strong.important_text, strong.important_text_alt, .invalid, .warning, .new, .error {
 	font-weight: 600;
 	padding: 1px 2px;
 	display: inline-block;
@@ -1862,9 +1866,9 @@ strong.important_text, .invalid, .warning, .new, .error {
 	border-radius: 2px !important;
 	opacity: 0.9;
 }
-strong.important_text_alt {
+.message_table>tbody>tr>td>strong.important_text_alt {
     color: #82ff6e !important;
-    text-shadow: 0 0 2px rgba(130, 255, 110, 0.8);
+    text-shadow: 0 0 2px rgba(130, 255, 110, 0.8) !important;
 }
 #rules .box.pad.rule_table {
     padding: 0 !important;
@@ -2181,6 +2185,53 @@ img[src*='smileys/wtf.gif'] {
 }
 
 /**** Plugin Support ****/
+
+.gm_color_freeleech {
+	background:#3BA53B !important;
+	color:#fff !important
+}
+.gm_color_neutralleech {
+	background:#a8e687 !important;
+	color:#fff !important
+}
+.gm_color_reported {
+	background:#ee372a !important;
+	color:#fff !important
+}
+.gm_color_badtags {
+	background:#F4D524 !important;
+	color:#fff !important
+}
+.gm_color_badfolders {
+	background:#eee08e !important;
+	color:#fff !important
+}
+.gm_color_cassetteapproved {
+	background:#0992B5 !important;
+	color:#fff !important
+}
+.gm_color_lossymasterapproved {
+	background:#6B6FBF !important;
+	color:#fff !important
+}
+.gm_color_badfilenames {
+	background:#84795F !important;
+	color:#fff !important
+}
+.gm_color_personalfreeleech {
+	background:#ffbfcb !important;
+	color:#fff!important
+}
+.gm_color_trumpable {
+	background:#ffb729 !important;
+	color:#fff !important
+}
+.gm_color_snatched {
+	background:#01b0d8 !important;
+	color:#fff !important
+}
+
+
 
 .linkbox a[href*='last'] img {
     content: url('./images/plugins-support/lastfm.png');
