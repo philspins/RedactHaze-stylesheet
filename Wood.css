@@ -1007,11 +1007,11 @@ tr {
 }
 tr.rowa {
     background: none;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 tr.rowb {
 	background: none;
-    background-color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.01);
 }
 td, th {
     border: none;
