@@ -558,10 +558,10 @@ ul.thin li {
 #userinfo_username li:first-child a:hover {
     background: #fff;
     color: #000;
-    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border: none !important;
 }
 #userinfo_username:hover li:first-child a {
-    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8) !important;
 }
 #userinfo_username li:first-child a:active {
     background: #f3f3f3;
@@ -858,6 +858,9 @@ input.hidden {
 .thin {
     width: 900px;
     margin: 0 auto;
+}
+.thin h2 {
+    margin: 1.25vh 20px 0 20px;
 }
 .linkbox {
     text-align: right;

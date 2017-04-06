@@ -578,10 +578,10 @@ ul.thin li {
 #userinfo_username li:first-child a:hover {
     background: #fff;
     color: #000;
-    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border: none !important;
 }
 #userinfo_username:hover li:first-child a {
-    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 #userinfo_username li:first-child a:active {
     background: #f3f3f3;
@@ -651,14 +651,14 @@ ul.thin li {
     width: 48px !important;
     height: 49px;
     line-height: 50px !important;
-    border: solid rgba(0, 0, 0, 0.08);
-    border-width: 1px 0px 0px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-image: url('./images/caret.png'), linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
     background-size:  50px auto;
-    
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
+    border-top: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-image: url('./images/caret-hover.png');
     transition: background 0.4s;
 }
@@ -878,6 +878,9 @@ input.hidden {
 .thin {
     width: 900px;
     margin: 0 auto;
+}
+.thin h2 {
+    margin: 1.25vh 20px 0 20px;
 }
 .linkbox {
     text-align: right;
