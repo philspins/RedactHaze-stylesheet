@@ -831,7 +831,12 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
     background: url('./images/light-on-dark/forum-light-on-dark/go_last_read.png') no-repeat center center;
     margin-left: 5px;
     background-size: 16px;
-    opacity: 0.8;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.read_locked_sticky+td .last_read, .read_sticky+td .last_read, .read+td .last_read {
+    opacity: 0.2;
+    transition: opacity 0.2s;
 }
 .last_read a {
     border: none;
@@ -839,9 +844,10 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
     height: 100%;
     display: block;
 }
-.last_read:hover {
+.last_read:hover, .read_locked_sticky+td .last_read:hover, .read_sticky+td .last_read:hover, .read+td .last_read:hover {
     border: none;
     opacity: 1;
+    transition: opacity 0.2s;
 }
 .last_read a:active, .last_read a:focus {
     outline: 0;
