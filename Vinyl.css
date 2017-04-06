@@ -1232,7 +1232,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background-position: center left;
 }
 .forum_unread {
-    border: 2px solid #0bb9e6 !important;
+    border-left: 2px solid #0bb9e6 !important;
     border-width: 0 0 0 2px;
 }
 .forum_post a {
@@ -1254,29 +1254,38 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background: url('./images/light-on-dark/forum-light-on-dark/locked_sticky_read.png') no-repeat center center;
     background-size: 100%;
 }
-.read_sticky {
-    background: url('./images/light-on-dark/forum-light-on-dark/sticky_read.png') no-repeat center center;
+.unread_sticky, .read_sticky {
+    background: url('./images/light-on-dark/forum-light-on-dark/star.png')) no-repeat center center;
     background-size: 100%;
 }
-.unread_sticky {
-    background: url('./images/light-on-dark/forum-light-on-dark/sticky_unread.png') no-repeat center center;
-    background-size: 100%;
-}
-.unread_locked {
-    background: url('./images/light-on-dark/forum-light-on-dark/locked_unread.png') no-repeat center center;
+.unread_locked, .read_locked {
+    background: url('./images/light-on-dark/forum-light-on-dark/lock.png') no-repeat center center;
     background-size: 75%;
 }
-.read_locked {
-    background: url('./images/light-on-dark/forum-light-on-dark/locked_read.png') no-repeat center center;
-    background-size: 75%;
+.unread, .read {
+    background: url('./images/light-on-dark/forum-light-on-dark/bubble.png') no-repeat center center;
+    background-size: 85%;    
 }
-.unread {
-    background: url('./images/light-on-dark/forum-light-on-dark/unread.png') no-repeat center center;
-    background-size: 85%;
+.unread_sticky, .unread_locked, .unread {
+    opacity: 1;
 }
-.read {
-    background: url('./images/light-on-dark/forum-light-on-dark/read.png') no-repeat center center;
-    background-size: 85%;
+.read_sticky, .read_locked, .read {
+    opacity: 0.3;
+}
+.unread:after, .unread_locked:after {
+    content: '';
+    position: relative;
+    display: block;
+    top: 4px;
+    left: 7px;
+    height: 8px;
+    width: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #0bb9e6;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
 }
 table.forum_post {
     margin: 2px 0;
@@ -2176,7 +2185,7 @@ img[src*='smileys/wtf.gif'] {
 }
 
 table.important_user_not_OP {
-    border: 2px solid #ff8901;
+    border-right: 2px solid #ff8901;
     border-width: 0 2px 0 0;
     box-shadow: none !important;
 }

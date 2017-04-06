@@ -1277,29 +1277,38 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background: url('./images/dark-on-light/forum-dark-on-light/locked_sticky_read.png') no-repeat center center;
     background-size: 100%;
 }
-.read_sticky {
-    background: url('./images/dark-on-light/forum-dark-on-light/sticky_read.png') no-repeat center center;
+.unread_sticky, .read_sticky {
+    background: url('./images/dark-on-light/forum-dark-on-light/star.png') no-repeat center center;
     background-size: 100%;
 }
-.unread_sticky {
-    background: url('./images/dark-on-light/forum-dark-on-light/sticky_unread.png') no-repeat center center;
-    background-size: 100%;
-}
-.unread_locked {
-    background: url('./images/dark-on-light/forum-dark-on-light/locked_unread.png') no-repeat center center;
+.unread_locked, .read_locked {
+    background: url('./images/dark-on-light/forum-dark-on-light/lock.png') no-repeat center center;
     background-size: 75%;
 }
-.read_locked {
-    background: url('./images/dark-on-light/forum-dark-on-light/locked_read.png') no-repeat center center;
-    background-size: 75%;
+.unread, .read {
+    background: url('./images/dark-on-light/forum-dark-on-light/bubble.png') no-repeat center center;
+    background-size: 85%;    
 }
-.unread {
-    background: url('./images/dark-on-light/forum-dark-on-light/unread.png') no-repeat center center;
-    background-size: 85%;
+.unread_sticky, .unread_locked, .unread {
+    opacity: 0.85;
 }
-.read {
-    background: url('./images/dark-on-light/forum-dark-on-light/read.png') no-repeat center center;
-    background-size: 85%;
+.read_sticky, .read_locked, .read {
+    opacity: 0.3;
+}
+.unread:after, .unread_locked:after {
+    content: '';
+    position: relative;
+    display: block;
+    top: 4px;
+    left: 7px;
+    height: 8px;
+    width: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #0bb9e6;
+    border-radius: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.2);
 }
 table.forum_post {
     margin: 2px 0;
@@ -2265,7 +2274,7 @@ img[src*='smileys/wtf.gif'] {
 }
 
 table.important_user_not_OP {
-    border: 2px solid #ff8901;
+    border-right: 2px solid #ff8901;
     border-width: 0 2px 0 0;
     box-shadow: none !important;
 }
