@@ -1254,7 +1254,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background: url('./images/light-on-dark/forum/star.png') no-repeat center center;
     background-size: 100%;
 }
-.unread_locked, .read_locked, {
+.unread_locked, .read_locked {
     background: url('./images/light-on-dark/forum/lock.png') no-repeat center center;
     background-size: 75%;
 }
