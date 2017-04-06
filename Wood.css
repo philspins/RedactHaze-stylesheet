@@ -1285,7 +1285,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     margin-left: 2px;
 }
 .unread_sticky, .read_sticky, .unread_locked_sticky, .read_locked_sticky {
-    background: url('./images/dark-on-light/forum/star.png') no-repeat center center;
+    background: url('./images/dark-on-light/forum/pin.png') no-repeat center center;
     background-size: 100%;
 }
 .unread_locked, .read_locked, {
