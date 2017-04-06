@@ -1837,9 +1837,9 @@ a[onclick^='remove_selection'] .brackets:before, a[onclick^='remove_selection'] 
     padding: 0 !important;
 }
 strong.important_text {
-    color: #fff !important;
+    color: #ff005a !important;
     font-weight: 600 !important;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 4px rgba(255, 0, 90, 0.25);
 }
 .invalid, .warning {
     color: #ffa424 !important;
