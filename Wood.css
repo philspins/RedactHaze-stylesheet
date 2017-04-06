@@ -873,6 +873,14 @@ table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr
     outline: 0;
     opacity: 1;
 }
+tr.colhead_dark td span.last_read {
+    width: 16px;
+    height: 16px;
+    background: url('./images/light-on-dark/forum-light-on-dark/go_last_read.png') no-repeat center center;
+    margin-left: 5px;
+    background-size: 16px;
+    opacity: 0.9;
+}
 .hidden {
     position: absolute;
     left: -10000px;
@@ -1866,6 +1874,11 @@ strong.important_text {
 }
 .new {
     color: #03c2f2 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 5px rgba(3, 194, 242, 0.35);
+}
+tr.colhead_dark td span.new {
+    color: #fff !important;
     font-weight: 600 !important;
     text-shadow: 0 0 5px rgba(3, 194, 242, 0.35);
 }
