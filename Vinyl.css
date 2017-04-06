@@ -1861,12 +1861,6 @@ strong.important_text_alt {
     color: #82ff6e !important;
     text-shadow: 0 0 2px rgba(130, 255, 110, 0.8);
 }
-span[style='color: red;']
-{
-    color: #fff !important;
-    font-weight: 600 !important;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
-}
 #rules .box.pad.rule_table {
     padding: 0 !important;
 }

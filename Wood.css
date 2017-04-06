@@ -1881,9 +1881,9 @@ strong.important_text {
     text-shadow: 0 0 5px rgba(3, 194, 242, 0.35);
 }
 tr.colhead_dark td span.new {
-    color: #fff !important;
+    color: #ffd55d !important;
     font-weight: 600 !important;
-    text-shadow: 0 0 5px rgba(3, 194, 242, 0.35);
+    text-shadow: 0 0 5px rgba(255, 208, 109, 0.55);;
 }
 .error {
     color: #fc0528 !important;
@@ -1893,12 +1893,6 @@ tr.colhead_dark td span.new {
 strong.important_text_alt {
     color: #82ff6e !important;
     text-shadow: 0 0 2px rgba(130, 255, 110, 0.8);
-}
-span[style='color: red;']
-{
-    color: #fff !important;
-    font-weight: 600 !important;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
 }
 #rules .box.pad.rule_table {
     padding: 0 !important;
