@@ -1294,7 +1294,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     background: url('./images/dark-on-light/forum/pin.png') no-repeat center center;
     background-size: 100%;
 }
-.unread_locked, .read_locked, {
+.unread_locked, .read_locked {
     background: url('./images/dark-on-light/forum/lock.png') no-repeat center center;
     background-size: 75%;
 }
