@@ -2334,6 +2334,10 @@ table.important_user_not_OP {
     box-shadow: none !important;
 }
 
+#gt10_saving.important_text_alt {
+    background: none !important;
+}
+
 #scrollUp {
 	background-image: url('./images/plugins-support/scrollup.png');
     background-size: 30px;
