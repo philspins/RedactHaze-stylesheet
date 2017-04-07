@@ -2343,6 +2343,33 @@ table.important_user_not_OP {
     box-shadow: none !important;
 }
 
+#scrollUp {
+	background-image: url('./images/plugins-support/scrollup.png');
+    background-size: 30px;
+    display: box;
+	color:#fff !important
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#scrollUp:before {
+    display: none
+}
+#scrollStop {
+	background-image: url('./images/plugins-support/pausescroll.png');
+    background-size: 30px;
+    display: box;
+	color:#fff !important
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#scrollStop:before {
+    display: none
+}
+
 /**** Misc ****/
 
 img[alt='The Apple Way']
