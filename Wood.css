@@ -2194,8 +2194,8 @@ img[src*='smileys/eyesright.gif'] {
 }
 img[src*='smileys/loveflac.gif'] {
     content: url('./images/smileys/loveflac.png');
-    height: 20px;
-    width: 20px;
+    height: 31px;
+    width: auto;
 }
 img[src*='smileys/frown.gif'] {
     content: url('./images/smileys/frown.png');
@@ -2234,8 +2234,8 @@ img[src*='smileys/ohshit.gif'] {
 }
 img[src*='smileys/pthlove.gif'] {
     content: url('./images/smileys/redlove.png');
-    height: 20px;
-    width: 20px;
+    height: 31px;
+    width: auto;
 }
 img[src*='smileys/shifty.gif'] {
     content: url('./images/smileys/shifty.gif');
