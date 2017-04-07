@@ -2192,11 +2192,6 @@ img[src*='smileys/eyesright.gif'] {
     height: 20px;
     width: 20px;
 }
-img[src*='smileys/loveflac.gif'] {
-    content: url('./images/smileys/loveflac.png');
-    height: 31px;
-    width: auto;
-}
 img[src*='smileys/frown.gif'] {
     content: url('./images/smileys/frown.png');
     height: 20px;
@@ -2217,6 +2212,11 @@ img[src*='smileys/laughing.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/loveflac.gif'] {
+    content: url('./images/smileys/loveflac.png');
+    height: 31px;
+    width: auto;
+}
 img[src*='smileys/ninja.gif'] {
     content: url('./images/smileys/ninja.png');
     height: 20px;
@@ -2232,13 +2232,33 @@ img[src*='smileys/ohshit.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/omg.gif'] {
+    content: url('./images/smileys/omg.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/paddle.gif'] {
+    content: url('./images/smileys/paddle.png');
+    height: 31px;
+    width: auto;
+}
 img[src*='smileys/pthlove.gif'] {
     content: url('./images/smileys/redlove.png');
     height: 31px;
     width: auto;
 }
+img[src*='smileys/sad.gif'] {
+    content: url('./images/smileys/sad.png');
+    height: 20px;
+    width: 20px;
+}
 img[src*='smileys/shifty.gif'] {
     content: url('./images/smileys/shifty.gif');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/sick.gif'] {
+    content: url('./images/smileys/sick.png');
     height: 20px;
     width: 20px;
 }
@@ -2247,14 +2267,28 @@ img[src*='smileys/smile.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/sorry.gif'] {
+    content: url('./images/smileys/sorry.png');
+    height: 31px;
+    width: auto;
+}
+img[src*='smileys/thanks.gif'] {
+    content: url('./images/smileys/thanks.png');
+    height: 31px;
+    width: auto;
+}
 img[src*='smileys/tongue.gif'] {
     content: url('./images/smileys/tongue.png');
     height: 20px;
     width: 20px;
 }
-
 img[src*='smileys/wink.gif'] {
     content: url('./images/smileys/wink.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/worried.gif'] {
+    content: url('./images/smileys/worried.png');
     height: 20px;
     width: 20px;
 }
@@ -2262,6 +2296,11 @@ img[src*='smileys/wtf.gif'] {
     content: url('./images/smileys/wtf.png');
     height: 20px;
     width: 20px;
+}
+img[src*='smileys/wub.gif'] {
+    content: url('./images/smileys/wub.png');
+    height: 31px;
+    width: auto;
 }
 
 /**** Plugin Support ****/
