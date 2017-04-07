@@ -2189,7 +2189,7 @@ img[src*='smileys/omg.gif'] {
 }
 img[src*='smileys/paddle.gif'] {
     content: url('./images/smileys/paddle.png');
-    height: 31px;
+    height: 29px;
     width: auto;
 }
 img[src*='smileys/pthlove.gif'] {
@@ -2249,7 +2249,7 @@ img[src*='smileys/wtf.gif'] {
 }
 img[src*='smileys/wub.gif'] {
     content: url('./images/smileys/wub.png');
-    height: 31px;
+    height: 30px;
     width: auto;
 }
 
