@@ -131,7 +131,9 @@ img[src='static/common/symbols/contest.png']
 {
     background: url('./images/user-icons/contest.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
-    height: 13px !important;
+    height: 16px !important;
+    margin-top: -2px;
+    margin-bottom: -2px;
     padding-right: 15px !important;
     width: 0 !important;
 }
@@ -1235,7 +1237,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     float: left;
 }
 .group_torrent span a {
-    color: #c3c0c0;
+    color: #8b8b8b;
 }
 #torrents .group_torrent span:after {
     content: '.';
@@ -2199,6 +2201,11 @@ img[src*='smileys/eyesright.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/loveflac.gif'] {
+    content: url('./images/smileys/loveflac.png');
+    height: 20px;
+    width: 20px;
+}
 img[src*='smileys/frown.gif'] {
     content: url('./images/smileys/frown.png');
     height: 20px;
@@ -2234,11 +2241,27 @@ img[src*='smileys/ohshit.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/pthlove.gif'] {
+    content: url('./images/smileys/redlove.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/shifty.gif'] {
+    content: url('./images/smileys/shifty.gif');
+    height: 20px;
+    width: 20px;
+}
 img[src*='smileys/smile.gif'] {
     content: url('./images/smileys/smile.png');
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/tongue.gif'] {
+    content: url('./images/smileys/tongue.png');
+    height: 20px;
+    width: 20px;
+}
+
 img[src*='smileys/wink.gif'] {
     content: url('./images/smileys/wink.png');
     height: 20px;

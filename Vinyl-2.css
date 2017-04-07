@@ -1251,7 +1251,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     margin-left: 2px;
 }
 .unread_sticky, .read_sticky, .unread_locked_sticky, .read_locked_sticky {
-    background: url('./images/light-on-dark/forum/star.png') no-repeat center center;
+    background: url('./images/light-on-dark/forum/pin.png') no-repeat center center;
     background-size: 100%;
 }
 .unread_locked, .read_locked {
@@ -2034,7 +2034,9 @@ img[src='static/common/symbols/contest.png']
 {
     background: url('./images/user-icons/contest.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
-    height: 13px !important;
+    height: 16px !important;
+    margin-top: -2px;
+    margin-bottom: -2px;
     padding-right: 15px !important;
     width: 0 !important;
 }
@@ -2141,6 +2143,11 @@ img[src*='smileys/eyesright.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/loveflac.gif'] {
+    content: url('./images/smileys/loveflac.png');
+    height: 20px;
+    width: 20px;
+}
 img[src*='smileys/frown.gif'] {
     content: url('./images/smileys/frown.png');
     height: 20px;
@@ -2176,8 +2183,23 @@ img[src*='smileys/ohshit.gif'] {
     height: 20px;
     width: 20px;
 }
+img[src*='smileys/pthlove.gif'] {
+    content: url('./images/smileys/redlove.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/shifty.gif'] {
+    content: url('./images/smileys/shifty.gif');
+    height: 20px;
+    width: 20px;
+}
 img[src*='smileys/smile.gif'] {
     content: url('./images/smileys/smile.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='smileys/tongue.gif'] {
+    content: url('./images/smileys/tongue.png');
     height: 20px;
     width: 20px;
 }
