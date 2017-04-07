@@ -1918,6 +1918,9 @@ strong.important_text, strong.important_text_alt, .invalid, .warning, .new, .err
 #rules .box.pad.rule_table {
     padding: 0 !important;
 }
+#rules .box.pad.rule_table * .rowb {
+    background: rgba(0, 0, 0, 0.04)
+}
 body#forums table.forum_post td.body>div, body#userhistory table.forum_post td.body>div {
     width: 719px;
 }
@@ -2054,15 +2057,15 @@ img[alt='Leechers']
     padding-right: 11px;
     width: 0;
 }
-img[src='static/common/symbols/donor.png']
+img[src*='/donor.png']
 {
-    background: url('./images/user-icons/donor.png') no-repeat scroll 0 0 transparent;
+    background: url('./images/user-icons/donor_1.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
     width: 0 !important;
 }
-img[src='static/common/symbols/donor_2.png']
+img[src*='/donor_2.png']
 {
     background: url('./images/user-icons/donor_2.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
@@ -2070,7 +2073,7 @@ img[src='static/common/symbols/donor_2.png']
     padding-right: 15px !important;
     width: 0 !important;
 }
-img[src='static/common/symbols/donor_3.png']
+img[src*='/donor_3.png']
 {
     background: url('./images/user-icons/donor_3.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
@@ -2078,7 +2081,7 @@ img[src='static/common/symbols/donor_3.png']
     padding-right: 15px !important;
     width: 0 !important;
 }
-img[src='static/common/symbols/donor_4.png']
+img[src*='/donor_4.png']
 {
     background: url('./images/user-icons/donor_4.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
@@ -2086,17 +2089,9 @@ img[src='static/common/symbols/donor_4.png']
     padding-right: 15px !important;
     width: 0 !important;
 }
-img[src='static/common/symbols/donor_5.png']
+img[src*='/donor_5.png']
 {
     background: url('./images/user-icons/donor_5.png') no-repeat scroll 0 0 transparent;
-    background-size: 100%;
-    height: 13px !important;
-    padding-right: 15px !important;
-    width: 0 !important;
-}
-img[src='static/common/symbols/donor_6.png']
-{
-    background: url('./images/user-icons/donor_6.png') no-repeat scroll 0 0 transparent;
     background-size: 100%;
     height: 13px !important;
     padding-right: 15px !important;
