@@ -673,6 +673,7 @@ ul.thin li {
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
+    height: 48px !important;
     border-top: 1px solid rgba(255, 255, 255, 0);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: url('./images/caret-dark.png') center center no-repeat #fff;
