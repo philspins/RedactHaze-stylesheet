@@ -668,14 +668,16 @@ ul.thin li {
     height: 49px;
     line-height: 50px !important;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background-image: url('./images/caret.png'), linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
-    background-size:  50px auto;
+    background: url('./images/caret-light.png') center center no-repeat;
+    background-color: linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
+    background-size:  30px auto;
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
-    border-top: none;
+    border-top: 1px solid rgba(255, 255, 255, 0);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-image: url('./images/caret-hover.png');
+    background: url('./images/caret-dark.png') center center no-repeat #fff;
+    background-size:  30px auto;
     transition: background 0.4s;
 }
 #userinfo_minor li {
@@ -1237,7 +1239,7 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     float: left;
 }
 .group_torrent span a {
-    color: #8b8b8b;
+    color: #868a8e;
 }
 #torrents .group_torrent span:after {
     content: '.';

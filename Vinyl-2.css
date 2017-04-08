@@ -629,15 +629,17 @@ ul.thin li {
     width: 48px !important;
     height: 49px;
     line-height: 50px !important;
-    border: solid rgba(0, 0, 0, 0.08);
-    border-width: 1px 0px 0px 0px;
-    background-image: url('./images/caret.png'), linear-gradient(rgba(0, 0, 0, 0.06),  rgba(0, 0, 0, 0.08));
-    background-size:  50px auto;
-    
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: url('./images/caret-light.png') center center no-repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size:  30px auto;
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
-    background-image: url('./images/caret-hover.png');
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: url('./images/caret-dark.png') center center no-repeat #fff;
+    background-size:  30px auto;
     transition: background 0.4s;
 }
 #userinfo_minor li {
