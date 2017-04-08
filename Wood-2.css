@@ -668,9 +668,8 @@ ul.thin li {
     height: 49px;
     line-height: 50px !important;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: url('./images/caret-light.png') center center no-repeat;
-    background-color: linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
-    background-size:  30px auto;
+    background: url('./images/caret-light.png') center center no-repeat, linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
+    background-size: 30px auto, 50px auto;
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
