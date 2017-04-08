@@ -661,14 +661,15 @@ ul.thin li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background: url('./images/caret-light.png') center center no-repeat;
     background-color: linear-gradient(rgba(24, 32, 41, 0.37),  rgba(24, 32, 41, 0.45));
-    background-size:  50px auto;
+    background-size:  30px auto;
 }
 #userinfo_minor:hover, #userinfo_minor:focus, #userinfo_minor:active {
     background-color: #fff;
+    height: 48px;
     border-top: 1px solid rgba(255, 255, 255, 0);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: url('./images/caret-dark.png') center center no-repeat #fff;
-    background-size:  50px auto;
+    background-size:  30px auto;
     transition: background 0.4s;
 }
 #userinfo_minor li {
