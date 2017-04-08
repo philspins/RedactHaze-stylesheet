@@ -560,7 +560,7 @@ ul.thin li {
     border: none !important;
 }
 #userinfo_username:hover li:first-child a {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 #userinfo_username li:first-child a:active {
     background: #f3f3f3;
