@@ -1030,6 +1030,10 @@ tr.rowb {
 	background: none;
     background-color: rgba(0, 0, 0, 0.01);
 }
+table.forum_index > tbody > tr.rowa, table.forum_index > tbody > tr.rowb {
+    border-left: none;
+    border-right: none;
+}
 td, th {
     border: none;
     padding: 5px;
