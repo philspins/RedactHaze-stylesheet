@@ -854,6 +854,9 @@ td.cats_col, td.center.cats_col {
 table.grouping>tbody>tr.torrent>td:first-child+td+td, table.no_grouping>tbody>tr.torrent>td:first-child+td, table.grouping>tbody>tr.group>td:first-child+td+td, table.grouping>tbody>tr.colhead>td:first-child+td+td, table.no_grouping>tbody>tr.group>td:first-child+td, table.no_grouping>tbody>tr.colhead>td:first-child+td {
     border-left: none;
 }
+.last_topic a {
+    display: inline-block;
+}
 .last_read {
     width: 16px;
     height: 16px;
@@ -1020,6 +1023,8 @@ tr {
 tr.rowa {
     background: none;
     background-color: #fff;
+    border-left: 2px solid #d3d3d3;
+    border-right: 2px solid #d3d3d3;
 }
 tr.rowb {
 	background: none;
