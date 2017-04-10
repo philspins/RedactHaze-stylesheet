@@ -1255,6 +1255,10 @@ tr.group_torrent td, tr.group td, tr.torrent td {
     font-weight: normal;
     float: right;
 }
+.torrent_row * img {
+    max-width: 500px;
+    float: left;
+}
 .nobr {
     white-space: nowrap;
 }
