@@ -1028,9 +1028,9 @@ tr.rowa {
 }
 tr.rowb {
 	background: none;
-    background-color: rgba(0, 0, 0, 0.01);
+    background-color: rgba(0, 0, 0, 0.04);
 }
-table.forum_index > tbody > tr.rowa, table.forum_index > tbody > tr.rowb {
+table.forum_index > tbody > tr.rowa, table.forum_index > tbody > tr.rowb, table.message_table > tbody > tr.rowa, table.message_table > tbody > tr.rowb {
     border-left: none;
     border-right: none;
 }
