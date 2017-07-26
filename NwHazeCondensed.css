@@ -215,8 +215,8 @@ ul.thin li {
 #logo {
   box-sizing : content-box;
   width      : 163px;
-  height     : 30px;
-  padding    : 24px 8px 16px;
+  height     : 43px;
+  padding    : 13px 8px 15px;
 	overflow: hidden;
 }
 
@@ -345,7 +345,7 @@ ul.thin li {
 #nav_Free a {
     position: relative;
     top: -80px;
-    right: 70px;
+    right: 125px;
     background: url('./images/menu/freeleech-sprite-dark.png');
     background-position: 0 8px !important;
     background-repeat: no-repeat;
@@ -374,7 +374,6 @@ ul.thin li {
     color: transparent !important;
 }
 #nav_staff {
-
     position: absolute;
     display: inline-block;
     -moz-box-sizing: border-box;
@@ -409,7 +408,7 @@ ul.thin li {
 #nav_staff a:active {
     color: transparent !important;
     background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 48px !important;
+    background-position: 0 49px !important;
     background-size: 50px auto !important;
 }
 #userinfo {
@@ -481,7 +480,7 @@ ul.thin li {
 #userinfo_major #nav_invite a:active {
     color: transparent !important;
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 48px;
+    background-position: 0 49px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
@@ -500,6 +499,7 @@ ul.thin li {
     background: url('./images/menu/donate-sprite-dark.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
+
 }
 #userinfo_major #nav_store a {
     margin-left: -100px;
@@ -507,19 +507,20 @@ ul.thin li {
 }
 #userinfo_major #nav_store a {
     background: url('./images/menu/store-sprite-dark.png');
-    background-position: 0 0;
+    background-position: 0 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_store a:hover {
     background: url('./images/menu/store-sprite-dark.png');
-    background-position: 0 84px;
+    background-position: 0 91px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_store a:active {
     background: url('./images/menu/store-sprite-dark.png');
-    background-position: 0 42px;
+    background-position: 0 49px;
     background-size: 50px auto !important;
 }
+
 #extra2 {
 	position: fixed;
 	background-color: rgba(53, 54, 54, 0.97);
