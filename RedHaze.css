@@ -632,7 +632,7 @@ ul.thin li {
     list-style: none;
     right: 0px;
     top: 0px;
-    z-index: 99999;
+    z-index: 1000;
     width: 48px !important;
     height: 39px;
     line-height: 40px !important;
