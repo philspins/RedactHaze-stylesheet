@@ -1981,7 +1981,7 @@ input[type='search']
 #noty_bottomRight_layout_container {
 	position: fixed !important;
 	bottom: 0 !important;
-	right: 0 !important;
+	right: 27px !important;
 }
 #noty_bottomRight_layout_container li {
     border-top-left-radius: 5px !important;
@@ -2010,8 +2010,7 @@ input[type='search']
     color: #02c2f2 !important;
 }
 .rippywrap {
-    color: #fff;
-    right: 10px;
+		visibility: hidden;
 }
 span.rbt {
     background: url('images/rippy/rippy_top.png') no-repeat top;
