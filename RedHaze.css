@@ -1686,15 +1686,12 @@ select {
     height: 30px;
     padding: 5px 41px 5px 5px;
     text-decoration: none;
-}/*
+}
 @-moz-document url-prefix() {
     select {
-    padding: 5px 41px 5px 5px;
     -moz-appearance: none;
-    text-indent: .01px;
-    text-overflow: '';
     background-position: 2px right center;
-}*/
+}
 }option {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
