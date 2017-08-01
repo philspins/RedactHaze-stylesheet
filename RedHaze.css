@@ -1689,7 +1689,10 @@ select {
 }
 @-moz-document url-prefix() {
     select {
+    padding: 5px 41px 5px 5px;
     -moz-appearance: none;
+    text-indent: .01px;
+    text-overflow: '';
     background-position: 2px right center;
 }
 }option {
