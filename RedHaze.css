@@ -725,14 +725,14 @@ ul.thin li {
     width: 141.5px;
     height: 25px;
     margin: 0;
-    padding: 0 5px;
+    padding: 0 5px !important;
     background: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 1px;
     color: #fff;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
@@ -1639,10 +1639,6 @@ input[type=text], input[type='password'], input[type='search'], input[type='emai
     border-radius: 1px;
     outline: none;
 }
-@-moz-document url-prefix() {
-input[type=text], input[type='password'], input[type='search'], input[type='email']
-{height: initial;}
-}
 input[type=text]:hover, input[type=text]:focus, input[type='search']:hover, input[type='search']:focus, input[type='password']:hover, input[type='password']:focus, input[type='email']:hover, input[type='email']:focus {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1690,7 +1686,7 @@ select {
     height: 30px;
     padding: 5px 41px 5px 5px;
     text-decoration: none;
-}
+}/*
 @-moz-document url-prefix() {
     select {
     padding: 5px 41px 5px 5px;
@@ -1698,11 +1694,7 @@ select {
     text-indent: .01px;
     text-overflow: '';
     background-position: 2px right center;
-}
-}@-moz-document url-prefix() {
-    #searchbars input {
-    padding: 8px;
-}
+}*/
 }option {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
