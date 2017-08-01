@@ -469,10 +469,9 @@ ul.thin li {
 }
 #userinfo_major #nav_invite a {
     color: #fff;
-    display: block;
     width: 50px;
-    margin-top: 0;
-    padding-top: 25px;
+		height: 48px;
+    padding-top: 27px;
 		padding-left: 34px;
     font-weight: 700;
     font-size: 12px;
@@ -480,21 +479,18 @@ ul.thin li {
 		vertical-align: bottom;
 }
 #userinfo_major #nav_invite {
-
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0px 3px;
+    background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:hover {
-
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 87px;
+    background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
-
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 46px;
+    background-position: 0 49px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
