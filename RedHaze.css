@@ -480,17 +480,17 @@ ul.thin li {
 }
 #userinfo_major #nav_invite {
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0px 6px;
+    background-position: 0px 7px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:hover {
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 90px;
+    background-position: 0 91px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
     background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 49px;
+    background-position: 0 50px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
